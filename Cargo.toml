@@ -1,0 +1,12 @@
+[package]
+name = "sonr_connection"
+version = "0.1.0"
+authors = ["Jonas Hagstedt <hagstedt@gmail.com>"]
+edition = "2018"
+
+[dependencies]
+sonr = { git = "https://github.com/hagsteel/sonr.git" }
+bytes = {version = "0.4.12", features = ["serde"] }
+serde = {version = "1.0.89", features = ["derive"] }
+serde_derive = "1.0.89"
+serde_json = "1.0.39"
